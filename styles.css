@@ -1,0 +1,151 @@
+body {
+  height: 100vh;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.blue-container, 
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.blue-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 24px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header > h3 {
+    font-size: 24px;
+    margin: auto 0;
+}
+
+header > ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+p {
+    font-size: 18px;
+}
+
+.heart {
+    height: auto;
+    width: 90%;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.heart > div > h1 {
+    font-size: 48px;
+}
+
+.heart > div > button {
+    border: none;
+}
+
+.heart > img {
+    height: 250px;
+    width: 100%;
+    border-radius: 16px;
+}
+
+.thick {
+    font-weight: bold;
+}
+
+.slim {
+    font-weight: normal;
+}
+
+.white-container {
+    background-color: #f9faf8;
+    color: #1f2937;
+    text-align: center;
+}
+
+.white-container > h2 {
+    font-size: 36px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 36px;
+}
+
+.image {
+    height: auto;
+    width: 150px;
+}
+
+.image > img {
+    height: 130px;
+    width: 130px;
+    border: 3px solid #1f2937;
+    border-radius: 16px;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    align-self: center;
+}
+
+.quote {
+    padding: 50px 250px;
+    font-style: italic;
+    font-size: 36px;
+    margin: 0;
+}
+
+.author {
+    text-align: right;
+    padding: 0 200px 50px 0;
+    margin: 0;
+}
+
+.action-container {
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 100px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+
+button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    height: 36px;
+    width: 86px;
+    border: 2px solid #f9faf8;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+}
